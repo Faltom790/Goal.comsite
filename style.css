@@ -1,0 +1,242 @@
+/* General styling */
+*{
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+}
+.dflex{
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    position:absolute;
+    background-color: black;
+    min-width: 100px;
+    width: 180px;
+    padding:10px;
+    z-index: 100px;
+    display: none;
+}
+.dropdown-content a{
+    display: block;
+    margin: 5px auto;
+    padding: 10px 20px;
+    transition: 0.5 ease-out;
+}
+.dropdown-content a:hover{
+    color: black;
+    background-color: antiquewhite;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+/* ads styling */
+.ads{
+    width: 80%;
+    background-color: black;
+    min-width: 100px;
+    padding: 10px;
+}
+/* nav styling */
+nav{
+    width: auto;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    padding-left: 20px;
+    border-bottom: 5px solid orangered;
+    position: sticky;
+    z-index: 100px;
+    top:0;
+}
+nav ol{
+    display: flex;
+    align-items: center;
+}
+nav ol li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+nav ol li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+/* main styling */
+main{
+    width: auto;
+    height: fit-content;
+    background-color: rgb(82, 72, 72);
+}
+.inner-main{
+    width: 80%;
+    height: fit-content;
+    margin: 10px auto;
+}
+h1, h4{
+    color: white;
+}
+.left-main{
+    width: 69%;
+    height: fit-content;
+}
+.top-left{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+}
+.image-box{
+    width: 33%;
+    height: 300px;
+    background-color: white;
+}
+.bottom-left{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+.right-main{
+    width: 30%;
+    height: fit-content;
+    background-color:  rgb(82, 72, 72);
+}
+.right-box{
+    width: 100%;
+    height: 245px;
+    background-color: white;
+}
+.mtop{
+    margin-top: 10px;
+}
+.line-1{
+    width: 49%;
+    height: fit-content;
+}
+.boxes{
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+}
+.bub{
+    height: 510px;
+}
+.line-2{
+    width: 49%;
+    height: fit-content;
+}
+.boxes2{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+}
+.to-left{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+}
+.botto-left{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+.to-top{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+}
+.l-line-1{
+    width: 67%;
+    height: 150px;
+    background-color: white;
+}
+.r-line-1{
+    width: 32%;
+    height: 150px;
+    background-color: green;
+    justify-content: space-between;
+}
+.r2-line-1{
+    width: 100%;
+    height: 74px;
+    background-color: white;
+}
+.top{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+.bottom{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+/* two face styling */
+.two-face-l{
+    width: 49%;
+    height: fit-content;
+}
+.two-face-r{
+    width: 49%;
+    height: fit-content;
+}
+.up{
+    width: 100%;
+    height: 250px;
+    background-color: white;
+}
+.down{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+.more{
+    margin: 15px auto;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+}
+.top-up{
+    width: 100%;
+    height: 148px;
+    background-color: white;
+}
+.side{
+    width: 100%;
+    height: 250px;
+}
+.line-3{
+    width: 30%;
+    height: fit-content;
+}
+.to-head{
+    width: 30%;
+    height: fit-content;
+}
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.in{
+    width: 100%;
+    height: 65%;
+}
+.out{
+    width: 100%;
+    height: 35%;
+    background-color: black;
+}
